@@ -1,3 +1,6 @@
 encryptionsalt: v1:mvARiw88cVA=:v1:iION599+3duAIQOR:pnVT7WUoo7jylZmOihl/Pcp+qCAb2Q==
 config:
   aws:region: us-east-1
+  PULUMI_CONFIG_PASSPHRASE: Allstar27
+
+
