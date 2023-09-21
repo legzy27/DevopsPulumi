@@ -1,6 +1,5 @@
 encryptionsalt: v1:mvARiw88cVA=:v1:iION599+3duAIQOR:pnVT7WUoo7jylZmOihl/Pcp+qCAb2Q==
 config:
-  aws:region: us-east-1
-  
-
-
+  aws:region: us-west-2
+  aws:skipMetadataApiCheck: "false"
+  webbapp:pulumi config set aws: profile Allstar27
