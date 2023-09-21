@@ -1,17 +1,17 @@
 {
     "version": 3,
     "checkpoint": {
-        "stack": "organization/webbapp/dev",
-        "latest": {
+        "Stack": "organization/webbapp/dev",
+        "Latest": {
             "manifest": {
-                "time": "2023-09-21T08:23:14.738242+01:00",
+                "time": "2023-09-21T08:23:14.744944+01:00",
                 "magic": "219c1157f0cb4305b76a294e4d97362cc95b264a228a6ea8815110f213600ede",
                 "version": "v3.84.0"
             },
             "secrets_providers": {
                 "type": "passphrase",
                 "state": {
-                    "salt": "v1:EGrtBDPrVQo=:v1:fX9FS5BmjnBE1m+v:AM+g2e/AMMJU5vzCrOfO7zE5PP466A=="
+                    "salt": "v1:kAG1yV7gGf0=:v1:/FKEpkQ+TCBGoIOe:PEGgDEg4wT5VboSbkQkvjC2fr19uxg=="
                 }
             },
             "resources": [
@@ -19,6 +19,9 @@
                     "urn": "urn:pulumi:dev::webbapp::pulumi:pulumi:Stack::webbapp-dev",
                     "custom": false,
                     "type": "pulumi:pulumi:Stack",
+                    "outputs": {
+                        "bucket_name": "my-bucket-5664986"
+                    },
                     "created": "2023-09-21T06:26:21.432272Z",
                     "modified": "2023-09-21T06:26:21.432272Z",
                     "sourcePosition": "project:///venv/lib/python3.11/site-packages/pulumi/runtime/stack.py#137"
@@ -95,6 +98,8 @@
                     },
                     "parent": "urn:pulumi:dev::webbapp::pulumi:pulumi:Stack::webbapp-dev",
                     "provider": "urn:pulumi:dev::webbapp::pulumi:providers:aws::default_6_2_0::c6028b90-978a-4404-8555-85761f3e8119",
+                    "created": "2023-09-21T07:23:14.740736Z",
+                    "modified": "2023-09-21T07:23:14.740736Z",
                     "sourcePosition": "project:///venv/lib/python3.11/site-packages/pulumi_aws/s3/bucket.py#1451"
                 }
             ]

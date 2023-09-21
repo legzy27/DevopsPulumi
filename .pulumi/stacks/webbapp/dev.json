@@ -1,8 +1,8 @@
 {
     "version": 3,
     "checkpoint": {
-        "stack": "organization/webbapp/dev",
-        "latest": {
+        "Stack": "organization/webbapp/dev",
+        "Latest": {
             "manifest": {
                 "time": "2023-09-21T08:23:14.744944+01:00",
                 "magic": "219c1157f0cb4305b76a294e4d97362cc95b264a228a6ea8815110f213600ede",
@@ -11,7 +11,7 @@
             "secrets_providers": {
                 "type": "passphrase",
                 "state": {
-                    "salt": "v1:EGrtBDPrVQo=:v1:fX9FS5BmjnBE1m+v:AM+g2e/AMMJU5vzCrOfO7zE5PP466A=="
+                    "salt": "v1:mvARiw88cVA=:v1:iION599+3duAIQOR:pnVT7WUoo7jylZmOihl/Pcp+qCAb2Q=="
                 }
             },
             "resources": [
