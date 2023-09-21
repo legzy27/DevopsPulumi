@@ -1,6 +1,6 @@
 name: webbapp
 runtime:
-  name: python
+  name: aws-python
   options:
     virtualenv: venv
 description: A minimal AWS Python Pulumi program
