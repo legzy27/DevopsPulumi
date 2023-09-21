@@ -1,0 +1,33 @@
+{
+    "kind": "update",
+    "startTime": 1695288732,
+    "message": "update yaml",
+    "environment": {
+        "exec.kind": "cli",
+        "git.author": "Alex Oyedele",
+        "git.author.email": "alexoyedele@Alexs-MacBook-Pro.local",
+        "git.committer": "Alex Oyedele",
+        "git.committer.email": "alexoyedele@Alexs-MacBook-Pro.local",
+        "git.dirty": "true",
+        "git.head": "087f4d41f34456ea078c2961c9be1e5b3b26bca6",
+        "git.headName": "refs/heads/order",
+        "pulumi.arch": "amd64",
+        "pulumi.env.PULUMI_CONFIG_PASSPHRASE": "set",
+        "pulumi.os": "darwin",
+        "pulumi.version": "v3.84.0",
+        "updatePlan": "false",
+        "vcs.kind": "github.com",
+        "vcs.owner": "legzy27",
+        "vcs.repo": "DevopsPulumi",
+        "vcs.root": "."
+    },
+    "config": {
+        "aws:region": "us-east-1"
+    },
+    "version": 0,
+    "result": "succeeded",
+    "endTime": 1695288735,
+    "resourceChanges": {
+        "same": 2
+    }
+}
