@@ -1,0 +1,33 @@
+{
+    "kind": "update",
+    "startTime": 1695280986,
+    "message": "first commit",
+    "environment": {
+        "exec.kind": "cli",
+        "git.author": "Alex Oyedele",
+        "git.author.email": "alexoyedele@Alexs-MacBook-Pro.local",
+        "git.committer": "Alex Oyedele",
+        "git.committer.email": "alexoyedele@Alexs-MacBook-Pro.local",
+        "git.dirty": "true",
+        "git.head": "e45039385ea6aebd221fb9ce05fdc49008717d68",
+        "git.headName": "refs/heads/order",
+        "pulumi.arch": "amd64",
+        "pulumi.os": "darwin",
+        "pulumi.version": "v3.84.0",
+        "updatePlan": "false",
+        "vcs.kind": "github.com",
+        "vcs.owner": "legzy27",
+        "vcs.repo": "DevopsTest",
+        "vcs.root": "pulumi-infra/aws-python"
+    },
+    "config": {
+        "aws:region": "us-east-1"
+    },
+    "version": 0,
+    "result": "succeeded",
+    "endTime": 1695280994,
+    "resourceChanges": {
+        "create": 1,
+        "same": 1
+    }
+}

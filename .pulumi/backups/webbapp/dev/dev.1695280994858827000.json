@@ -1,0 +1,108 @@
+{
+    "version": 3,
+    "checkpoint": {
+        "stack": "organization/webbapp/dev",
+        "latest": {
+            "manifest": {
+                "time": "2023-09-21T08:23:14.744944+01:00",
+                "magic": "219c1157f0cb4305b76a294e4d97362cc95b264a228a6ea8815110f213600ede",
+                "version": "v3.84.0"
+            },
+            "secrets_providers": {
+                "type": "passphrase",
+                "state": {
+                    "salt": "v1:EGrtBDPrVQo=:v1:fX9FS5BmjnBE1m+v:AM+g2e/AMMJU5vzCrOfO7zE5PP466A=="
+                }
+            },
+            "resources": [
+                {
+                    "urn": "urn:pulumi:dev::webbapp::pulumi:pulumi:Stack::webbapp-dev",
+                    "custom": false,
+                    "type": "pulumi:pulumi:Stack",
+                    "outputs": {
+                        "bucket_name": "my-bucket-5664986"
+                    },
+                    "created": "2023-09-21T06:26:21.432272Z",
+                    "modified": "2023-09-21T06:26:21.432272Z",
+                    "sourcePosition": "project:///venv/lib/python3.11/site-packages/pulumi/runtime/stack.py#137"
+                },
+                {
+                    "urn": "urn:pulumi:dev::webbapp::pulumi:providers:aws::default_6_2_0",
+                    "custom": true,
+                    "id": "c6028b90-978a-4404-8555-85761f3e8119",
+                    "type": "pulumi:providers:aws",
+                    "inputs": {
+                        "region": "us-east-1",
+                        "skipCredentialsValidation": "false",
+                        "skipMetadataApiCheck": "true",
+                        "skipRegionValidation": "true",
+                        "version": "6.2.0"
+                    },
+                    "outputs": {
+                        "region": "us-east-1",
+                        "skipCredentialsValidation": "false",
+                        "skipMetadataApiCheck": "true",
+                        "skipRegionValidation": "true",
+                        "version": "6.2.0"
+                    },
+                    "created": "2023-09-21T06:26:22.94535Z",
+                    "modified": "2023-09-21T06:26:22.94535Z"
+                },
+                {
+                    "urn": "urn:pulumi:dev::webbapp::aws:s3/bucket:Bucket::my-bucket",
+                    "custom": true,
+                    "id": "my-bucket-5664986",
+                    "type": "aws:s3/bucket:Bucket",
+                    "inputs": {
+                        "__defaults": [
+                            "acl",
+                            "bucket",
+                            "forceDestroy"
+                        ],
+                        "acl": "private",
+                        "bucket": "my-bucket-5664986",
+                        "forceDestroy": false
+                    },
+                    "outputs": {
+                        "accelerationStatus": "",
+                        "acl": "private",
+                        "arn": "arn:aws:s3:::my-bucket-5664986",
+                        "bucket": "my-bucket-5664986",
+                        "bucketDomainName": "my-bucket-5664986.s3.amazonaws.com",
+                        "bucketRegionalDomainName": "my-bucket-5664986.s3.amazonaws.com",
+                        "corsRules": [],
+                        "forceDestroy": false,
+                        "grants": [],
+                        "hostedZoneId": "Z3AQBSTGFYJSTF",
+                        "id": "my-bucket-5664986",
+                        "lifecycleRules": [],
+                        "loggings": [],
+                        "objectLockConfiguration": null,
+                        "region": "us-east-1",
+                        "replicationConfiguration": null,
+                        "requestPayer": "BucketOwner",
+                        "serverSideEncryptionConfiguration": {
+                            "rule": {
+                                "applyServerSideEncryptionByDefault": {
+                                    "kmsMasterKeyId": "",
+                                    "sseAlgorithm": "AES256"
+                                },
+                                "bucketKeyEnabled": false
+                            }
+                        },
+                        "versioning": {
+                            "enabled": false,
+                            "mfaDelete": false
+                        },
+                        "website": null
+                    },
+                    "parent": "urn:pulumi:dev::webbapp::pulumi:pulumi:Stack::webbapp-dev",
+                    "provider": "urn:pulumi:dev::webbapp::pulumi:providers:aws::default_6_2_0::c6028b90-978a-4404-8555-85761f3e8119",
+                    "created": "2023-09-21T07:23:14.740736Z",
+                    "modified": "2023-09-21T07:23:14.740736Z",
+                    "sourcePosition": "project:///venv/lib/python3.11/site-packages/pulumi_aws/s3/bucket.py#1451"
+                }
+            ]
+        }
+    }
+}
